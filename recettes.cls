@@ -10,7 +10,14 @@
 \RequirePackage[section]{placeins}%Pour placement de section
 \usepackage[french]{babel}
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
 
-\newcommand{\recette}[1]{\section{#1}}
+
+\newcommand{\recette}[1]{\subsection{#1}}
 \newenvironment{ingredients}{\begin{itemize}}{\end{itemize}}
-
+\newcommand{\image}[2]{
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[scale=#1]{images/#2}
+\end{figure}
+}
