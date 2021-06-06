@@ -1,7 +1,7 @@
 \def\fileversion{0.1}
 \def\filedate{2021/06/05}
 
-\LoadClass[a4paper,12pt]{article} % Classe du document
+\LoadClass[a4paper,11pt]{article} % Classe du document
 
 %--------------------- Packages ------------------------
 
